@@ -142,28 +142,5 @@ int main(){
 	printf("xixi\n");
 	for(i = 0;i<scctotalnum;i++){
 		printf("%ld th scc is %ld\n",i+1, sccnumarray[i]);
-		sum +=sccnumarray[i];
-	}
-	printf("sum is %ld\n",sum );
-	/*
-	int max1 = 0;
-	int max2 = 0;
-	int j;
-	long index1;
-	long index2;
-	for(i = 0;i<NUM_VERTICE;i++){
-		j = arraysize[i];
-		if(j > max1){
-			max1 = j;
-			index1 = i+1;
-		}
-		j = arraysize2[i];
-		if(j > max2){
-			max2 = j;
-			index2 = i+1;
-		}
-	}
-	printf(" max1 is %d the index is %ld and max2 is %d the index is %ld\n",max1,index1 ,max2,index2);
-	*/
 	return 0;
 }
